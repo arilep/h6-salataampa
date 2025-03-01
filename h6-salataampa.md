@@ -127,15 +127,15 @@ sudo ufw allow 443/tcp
 sudo ufw enable
 ```
 
-Lähti toimimaan 👍 Osio valmis ~21:45.
+Lähti toimimaan 👍
 
 ![image](https://github.com/user-attachments/assets/63990d28-839d-4b37-913d-944f038aee5d)
 
-
+Osio valmis ~21:45.
 
 ## Tehtävä-B
 
-Testasin SSLLabs:in laadunvarmistustyökalulla oman sivustoni
+Testasin SSLLabs:in laadunvarmistustyökalulla oman sivustoni:
 
 ![image](https://github.com/user-attachments/assets/6dc07c23-7b2d-4d53-a8fd-0b05c95f6a9b)
 
