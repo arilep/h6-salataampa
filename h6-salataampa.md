@@ -120,11 +120,11 @@ Tämän jälkeen otin sertifikaatin käyttöön name based virtual host -asetuks
 Ja ajoin seuraavat komennot:
 
 ```
-sudo systemctl restart apache2
-sudo a2enmod ssl
-sudo apache2ctl configtest
-sudo ufw allow 443/tcp
-sudo ufw enable
+sudo systemctl restart apache2 #demonin potkaisu
+sudo a2enmod ssl #ssl-moduuli käyttöön apachessa
+sudo apache2ctl configtest #apache konffi tiedostojen tarkastus
+sudo ufw allow 443/tcp #reikä porttiin
+sudo ufw enable #palomuuri päälle
 ```
 
 Lähti toimimaan 👍
@@ -139,11 +139,9 @@ Testasin SSLLabs:in laadunvarmistustyökalulla oman sivustoni:
 
 ![image](https://github.com/user-attachments/assets/6dc07c23-7b2d-4d53-a8fd-0b05c95f6a9b)
 
-
-## Tehtävä-C
-
-
 ### Lähteet
+
+Karvinen, T. 3.12.2024. Linux Palvelimet 2025 alkukevät. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu 1.3.2025.
 
 Let's Encrypt 2024: How It Works. Luettavissa: https://letsencrypt.org/how-it-works/. Luettu 1.3.20025.
 
@@ -153,4 +151,4 @@ The Apache Software Foundation 2025: Apache HTTP Server Version 2.4 [Official] D
 
 Qualys SSL Labs: SSL Server Test. Luettavissa: https://www.ssllabs.com/ssltest/. Luettu 1.3.2025.
 
-Karvinen, T. 3.12.2024. Linux Palvelimet 2025 alkukevät. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu 1.3.2025.
+
