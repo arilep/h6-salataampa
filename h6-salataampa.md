@@ -165,7 +165,7 @@ Handshake Simulation
 
 Ikävän näköinen herja ylemmässä kuvassa koskien Chrome 49 / XP SP3 johtuu siitä, että tämä selain ja käyttöjärjestelmä ovat vanhentuneita, eivätkä tue nykyaikaisia TLS-sertifikaatteja (TLS 1.3), kuten SSL Labsin sivulta on todettavissa: https://www.ssllabs.com/ssltest/viewClient.html?name=Chrome&version=49&platform=XP%20SP3&key=136.
 
-Pienen odottelun jälkeen tietoihin päivittyi lisäämäni CAA-tietue:
+Kävin myöhemmin ajamassa SSL Labs -työkalun uudelleen, tietoihin oli päivittynyt lisäämäni CAA-tietue:
 
 ![image](https://github.com/user-attachments/assets/8dcf1c78-b9f2-4784-b5b0-34868c6e861d)
 
