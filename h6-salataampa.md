@@ -139,7 +139,7 @@ Testasin SSLLabs:in laadunvarmistustyökalulla oman sivustoni:
 
 ![image](https://github.com/user-attachments/assets/6dc07c23-7b2d-4d53-a8fd-0b05c95f6a9b)
 
-Päivitetty 9.3.2025:
+### Update 9.3.2025.
 
 Raporttia tarkastellessa esiin nousee muutama herja:
 
