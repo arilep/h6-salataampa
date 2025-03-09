@@ -141,7 +141,7 @@ Testasin SSLLabs:in laadunvarmistustyökalulla oman sivustoni:
 
 Päivitetty 9.3.2025:
 
-Raporttia tarkastellessa silmään osui muutama "herja":
+Raporttia tarkastellessa esiin nousee muutama herja:
 
 DNS CAA
 ![image](https://github.com/user-attachments/assets/9face153-dc7e-4b7b-8b95-54400ac27f89)
